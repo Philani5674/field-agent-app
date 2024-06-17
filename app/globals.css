@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+    --app-max-width: 1000px;
 }
 
 html {
@@ -13,8 +11,7 @@ html {
     margin: 0;
 }
 
-body {
+main {
     max-width: 1000px;
-    margin: auto;
-    box-sizing: border-box;
+    margin: 0 auto;
 }
